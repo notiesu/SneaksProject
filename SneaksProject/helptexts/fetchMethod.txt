@@ -1,0 +1,4 @@
+const contentType = await page.evaluate(() => {
+                return fetch(this._url, { method: 'GET' }).then(res => res.headers.get('chakra-text css-9ryi0c'));
+              });
+            console.log(contentType);
